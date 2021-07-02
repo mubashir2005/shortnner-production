@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins&display=swap");
+
+.complements {
+  padding: 100px;
+  position: relative;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  color: #1d1f21;
+  font-family: "ProximaNova Regular", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  font-weight: 400;
+  --wp-admin-theme-color: #007cba;
+  --wp-admin-theme-color-darker-10: #006ba1;
+  --wp-admin-theme-color-darker-20: #005a87;
+  background-color: #0b1736;
+  box-sizing: border-box;
+}
+#comp {
+  text-align: center;
+  line-height: 40px;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 100px;
+  font-family: "Poppins", sans-serif;
+}
+.learn_more {
+  font-family: "Patrick Hand", cursive;
+  font-size: 28px;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .learn_more{
+    margin-left: 30rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+.complements {
+  padding: 150px;
+  text-align: center;
+}
+.learn_more {
+  padding: 10px;
+}
+}
+

@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
+
+.brand {
+    font-family: "Itim", cursive;
+    font-size: 2rem !important;
+}
+.brand img {
+    margin: 0;
+    height: 130px;
+    width: 150px;
+}
+.effect :hover {
+    background: #4568dc; /* fallback for old browsers */
+    background: radial-gradient(yellow, #f06d06);
+    /* box-shadow: 0 0 10px 191654; */
+}
+.effects:hover {
+    color: #255784;
+    background: linear-gradient(90deg, transparent, #2196f3);
+    box-shadow: 0 0 10px #2195f3, 0 0 40px #2195f3, 0 0 80px #2195f3;
+}
+.please-donate:hover {
+    background: radial-gradient(yellow, #f06d06);
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .effects {
+        transition: 0.2s;
+        font-family: Segoe UI, Helvetica;
+    }
+
+    .effect {
+        transition: 0.2s;
+        font-family: Segoe UI, Helvetica;
+        display: flex;
+    }
+
+    .effect {
+        color: #2196f3;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (max-width: 700px) {
+    .please-donate {
+        display: inline-block;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,8 @@
+@import '~antd/dist/antd.css';
+* {
+    margin-top: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}

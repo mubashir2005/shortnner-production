@@ -1,0 +1,29 @@
+.liberty{
+    font-family: 'Original Surfer', cursive;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10em;
+}
+.quotes{
+    margin-top: 5em;
+    margin-left: 170px;
+    text-align: center;
+    margin-right: 0;
+    font-size: 3em;
+}
+.rights{
+    height: 600px;
+    width: 600px;
+    margin-top: 10em;
+    margin-left: 20em;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 900px) {
+    .rights {
+        margin-left: 50px;
+        margin-top: 40px;
+        height: 300px;
+        width: 300px;
+    }
+}

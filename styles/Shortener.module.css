@@ -1,0 +1,122 @@
+.shortener {
+    margin-top: 200px;
+}
+
+.all {
+    color: #9ca1ad;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.p {
+    line-height: 1.4em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.all {
+    background-color: #214252;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+
+.input {
+    width: 72%;
+    height: 60px;
+    background: #fff;
+    border: 1px solid #d3d4d7;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #36383b;
+    padding: 0 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    text-rendering: auto;
+    font: 400 13.3333px Arial;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    text-align: left;
+}
+
+.short-it {
+    vertical-align: bottom;
+    margin-bottom: 0;
+    background: #f9813a;
+    min-width: 25%;
+    position: relative;
+    font-size: 20px;
+    line-height: 1.11;
+    padding: 18px 30px;
+    outline: none;
+    border: 1px solid transparent;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 50px;
+    color: #f4f4f2;
+    outline-width: 0 !important;
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    .short-it {
+        float: right;
+        padding: 18px 30px !important;
+    }
+}
+
+.conditions {
+    color: #9ca1ad;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (max-width: 600px) {
+    .short-it {
+        display: block;
+        width: 60%;
+        margin-left: 60px;
+    }
+    .shortener {
+        display: flex;
+        align-items: center
+    }
+    .input {
+        margin-bottom: 100px !important;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 600px) and(max-width: 768px) {
+    .input {
+        margin: 0 auto;
+    }
+    .short-it {
+        margin: 0 auto;
+    }
+}

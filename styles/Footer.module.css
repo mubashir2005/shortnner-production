@@ -1,0 +1,18 @@
+.footer {
+    padding: 50px;
+    background-color: #19d3da;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 auto;
+}
+.copy{
+    margin-left: 50px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .copy{
+        margin-left: 30rem;
+    }
+}

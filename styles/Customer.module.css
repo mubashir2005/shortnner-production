@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Grandstander:ital@1&family=Shadows+Into+Light&display=swap");
+
+.customerMotto {
+    text-align: center;
+    font-size: 32px;
+    line-height: 40px;
+    color: #252628;
+    font-family: "ProximaNova ExtraBold", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+    margin-bottom: 0.5rem;
+    box-sizing: border-box;
+    font-weight: 500;
+    /*font-family: "Shadows Into Light", cursive;*/
+}
+.custom {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #56575b;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-sizing: border-box;
+    font-style: italic;
+    font-family: "Grandstander", cursive;
+}
+.url {
+    float: right;
+}
+.link {
+    float: left;
+}
+.links{
+    height: 800px;
+    width: 1000px;
+    margin-left: 8em;
+}
+
+.url_description {
+    margin-left: 90px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.customer_container {
+    margin-bottom: 100px;
+}
+.more {
+    clear: both;
+    margin-top: 100px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 900px) {
+    .links {
+        margin-left: 50px;
+        margin-top: 40px;
+        height: 300px;
+        width: 300px;
+    }
+    .custom {
+        margin-bottom: 0;
+    }
+}

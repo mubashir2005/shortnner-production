@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+
+.motto {
+    font-size: 50px;
+    line-height: 38px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.slogan {
+    font-size: 25px;
+    line-height: 22px;
+    color: #56575b;
+    text-rendering: optimizeLegibility;
+    margin-top: 20px;
+    padding: 20px;
+    line-height: 1.4;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    top: 50%;
+    transform: translate(0, -35%);
+    text-align: left;
+    margin-left: 60px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 260px;
+}
+
+.button {
+    margin: 0 auto;
+    margin-left: 30px;
+    border-radius: 8px;
+    font-size: inherit;
+    color: #fff;
+    transition: background 100ms linear;
+    text-decoration: none;
+    line-height: normal;
+    outline: none !important;
+    padding: 0.6em 1em;
+    display: block;
+    padding: 0.85em 1em;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 1.11;
+    padding: 18px 30px !important;
+}
+
+.profit {
+    float: right;
+    position: relative;
+    bottom: 200px;
+    height: 350px;
+    width: 400px;
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (max-width: 728px) {
+    .container {
+        position: inherit;
+    }
+    .motto {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 25px;
+        margin-top: 400px;
+        margin-right: 200px;
+        margin-bottom: 50px;
+    }
+    .profit {
+        height: 300px;
+        width: 300px;
+        margin-top: 300px;
+        margin-right: 120px;
+        margin-bottom: 0;
+    }
+    .slogan {
+        clear: both;
+        display: block;
+        margin: 0 auto;
+        margin-right: 80px;
+    }
+    .button {
+        margin: 0 auto;
+        position: relative;
+        right: 60px;
+        margin-bottom: 0;
+        padding: 20px;
+    }
+    .container {
+        margin-bottom: 0;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen(max-width:768px) {
+    .profit {
+        margin-left: 1000px;
+    }
+    .motto {
+        display: inline-block;
+        position: absolute;
+        z-index: 1000;
+    }
+    .slogan {
+        display: inline-block;
+        position: absolute;
+        z-index: 1000;
+    }
+}

@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat:wght@500&display=swap");
+
+.Brand {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    background-color: #e8e8e8;
+}
+.brand_title {
+    text-align: center;
+    font-size: 50px;
+    line-height: 40px;
+    text-rendering: optimizeLegibility;
+    box-sizing: border-box;
+    margin-bottom: 80px;
+    padding-top: 40px;
+}
+.brand_subtitle {
+    text-align: center;
+    font-size: 30px;
+    line-height: 22px;
+    font-style: italic;
+    color: #56575b;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    box-sizing: border-box;
+    font-family: "Dancing Script", cursive;
+}
+.img {
+    height: 700px;
+    width: 1400px;
+    margin-top: 100px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .img {
+        height: 300px;
+        width: 350px;
+        margin: 0 auto;
+    }
+    .brand_title {
+        font-size: 30px;
+    }
+    .brand_subtitle {
+        margin-bottom: 40px;
+    }
+}
