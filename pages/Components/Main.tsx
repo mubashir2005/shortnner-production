@@ -12,7 +12,7 @@ function Main() {
         customers.
       </h2>
       <img
-        src="https://images.unsplash.com/photo-1568234928966-359c35dd8327?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=799&q=80"
+        src="https://github.com/dingus45191/shortnner-production/blob/main/public/profit.jpg?raw=true"
         className={styles.profit}
         alt="profit with short-shortnner"
       />
