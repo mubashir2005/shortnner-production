@@ -33,8 +33,8 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .img {
-    height: 300px;
-    width: 350px;
+    height: 400px;
+    width: 500px;
     margin: 0 auto;
   }
   .brand_title {
@@ -42,5 +42,9 @@
   }
   .brand_subtitle {
     margin-bottom: 40px;
+  }
+  .Brand {
+    margin: auto;
+    width: 500px;
   }
 }
