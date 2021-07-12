@@ -12,7 +12,7 @@ export default function Brand() {
         reduce clicks while shorter links drive 34% more clicks
       </h2>
       <img
-        src="https://raw.githubusercontent.com/dingus45191/shortnner-production/main/public/brand.png"
+        src="https://images.unsplash.com/photo-1568234928966-359c35dd8327?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=799&q=80"
         alt="Brand"
         className={styles.img}
       />
