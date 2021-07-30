@@ -12,6 +12,7 @@ import Democracy from "./Components/Democracy";
 export default function App() {
   return (
       <div className="App">
+          <img src={'https://shortnner.tech/9EmJ7KUB8'}/>
           <NavigationBar/>
           <Main/>
           <Democracy/>
