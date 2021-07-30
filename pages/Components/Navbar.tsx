@@ -53,11 +53,11 @@ function NavigationBar() {
                         <Nav.Link
                             className={styles.effects}
                             target="_blank"
-                            href="https://shortnner-blog.vercel.app/donation"
+                            href="https://shortnner-blog.vercel.app/pro"
                             style={{textDecoration: "none"}}
                             rel="noreferrer"
                         >
-                            Donate
+                            Pro
                         </Nav.Link>
                     </Navbar.Collapse>
                 </Navbar>

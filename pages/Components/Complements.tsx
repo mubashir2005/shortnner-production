@@ -7,7 +7,7 @@ export default function Complements() {
       <h1 id={styles.comp}>Let the URL be private and limitless</h1>
 
       <a
-        href="https://shortnner-blog.vercel.app/"
+        href="https://shortnner-blog.vercel.app/why"
         target="_blank"
         rel="noreferrer"
         className={styles.learn_more}
