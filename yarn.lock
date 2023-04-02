@@ -2736,10 +2736,15 @@
     "@types/bson" "*"
     "@types/node" "*"
 
-"@types/node@*", "@types/node@^14.14.41":
+"@types/node@*":
   version "14.14.41"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.41.tgz#d0b939d94c1d7bd53d04824af45f1139b8c45615"
   integrity sha512-dueRKfaJL4RTtSa7bWeTK1M+VH+Gns73oCgzvYfHZywRCoPSd8EkXBL0mZ9unPTveBn+D9phZBaxuzpwjWkW0g==
+
+"@types/node@^14.18.37":
+  version "14.18.42"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.18.42.tgz#fa39b2dc8e0eba61bdf51c66502f84e23b66e114"
+  integrity sha512-xefu+RBie4xWlK8hwAzGh3npDz/4VhF6icY/shU+zv/1fNn+ZVG7T7CRwe9LId9sAYRPxI+59QBPuKL3WpyGRg==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
